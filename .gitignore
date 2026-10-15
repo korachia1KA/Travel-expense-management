@@ -1,0 +1,26 @@
+# Dépendances Composer (se régénèrent avec "composer install")
+/vendor/
+
+# Fichiers temporaires du serveur WebSocket
+*.pid
+*.log
+
+# Configuration sensible (mots de passe, clés)
+.env
+.env.*
+config.local.php
+
+# Fichiers du système
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Éditeurs
+.idea/
+.vscode/
+*.swp
+
+# Cache et téléversements
+/cache/
+/tmp/
+/uploads/
